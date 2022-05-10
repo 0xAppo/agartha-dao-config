@@ -22,7 +22,10 @@
     "cWBTC": "0x0014F450B8Ae7708593F4A46F8fa6E5D50620F96",
     "USDC": "0x4DBCdF9B62e891a7cec5A2568C3F4FAF9E8Abe2b",
     "agUSDC": "0x6da30d65660e8d3243ADC54683Ad440A7e2a7858",
-    "agUsdcDelegate": "0x07E7D30E646064fA052917b8651Edfe821ed9aE1"
+    "agUsdcDelegate": "0x07E7D30E646064fA052917b8651Edfe821ed9aE1",
+    "USDT": "0xD9BA894E0097f8cC2BBc9D24D308b98e36dc6D02",
+    "cUSDT": "0x2fB298BDbeF468638AD6653FF8376575ea41e768",
+    "cUsdtDelegate": "0x98394a121D26F90F4841e7BFE9dD4Aba05E666E4"
   },
   "Blocks": {
     "cUSDC": 4319847,
@@ -128,7 +131,7 @@
       "address": "0x5B281A6DdA0B271e91ae35DE655Ad301C976edb1"
     },
     "agUSDC": {
-      "name": "Agartha DAO USD Coin 📈",
+      "name": "Agartha DAO USD Coin",
       "symbol": "agUSDC",
       "decimals": 8,
       "underlying": "0x4DBCdF9B62e891a7cec5A2568C3F4FAF9E8Abe2b",
