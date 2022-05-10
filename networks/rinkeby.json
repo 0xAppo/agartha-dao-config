@@ -133,7 +133,7 @@
       "decimals": 8,
       "underlying": "0x4DBCdF9B62e891a7cec5A2568C3F4FAF9E8Abe2b",
       "contract": "CErc20Delegator",
-      "initial_exchange_rate_mantissa": "200000000000000",
+      "initial_exchange_rate_mantissa": "2000000000000000000",
       "admin": "0xed4481150c3e2fa3fc07922578d5f7d4cfb70ead",
       "address": "0x6da30d65660e8d3243ADC54683Ad440A7e2a7858"
     },
@@ -251,7 +251,7 @@
       "decimals": 8,
       "underlying": "0x4DBCdF9B62e891a7cec5A2568C3F4FAF9E8Abe2b",
       "contract": "CErc20Delegator",
-      "initial_exchange_rate_mantissa": "200000000000000",
+      "initial_exchange_rate_mantissa": "2000000000000000000",
       "admin": "0xed4481150c3e2fa3fc07922578d5f7d4cfb70ead",
       "address": "0x6da30d65660e8d3243ADC54683Ad440A7e2a7858"
     },
