@@ -48,7 +48,6 @@
   "PriceOracleProxy": {
     "description": "Price Oracle Proxy",
     "cETH": "0xd6801a1DfFCd0a410336Ef88DeF4320D6DF1883e",
-    "agUSDC": "0x5B281A6DdA0B271e91ae35DE655Ad301C976edb1",
     "cUSDC": "0x5B281A6DdA0B271e91ae35DE655Ad301C976edb1",
     "address": "0x5722A3F60fa4F0EC5120DCD6C386289A4758D1b2"
   },
@@ -221,7 +220,7 @@
       "address": "0x5B281A6DdA0B271e91ae35DE655Ad301C976edb1"
     },
     "agUSDC": {
-      "name": "Agartha DAO USD Coin 📈",
+      "name": "Agartha DAO USD Coin",
       "symbol": "agUSDC",
       "decimals": 8,
       "underlying": "0x4DBCdF9B62e891a7cec5A2568C3F4FAF9E8Abe2b",
