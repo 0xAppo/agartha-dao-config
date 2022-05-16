@@ -4191,7 +4191,7 @@
       "type": "function"
     }
   ],
-  "PriceFeed": [
+  "PriceOracle": [
     {
       "anonymous": false,
       "inputs": [
