@@ -35,6 +35,7 @@
     "USDC": 10675475,
     "Fauceteer": 10675476,
     "PriceOracle": 10675477,
+    "PriceOracleProxy": 10675478,
     "Timelock": 10675481,
     "Unitroller": 10675482,
     "cUSDC": 10675488,
