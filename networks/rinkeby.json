@@ -1,6 +1,6 @@
 {
   "Contracts": {
-    "CompoundLens": "0x89bAfAC5b774c6a1Fa4E39D4ed65700046e42357",
+    "CompoundLens": "0xFCf5B052bE4E2b593D00ebd3634868fb8ACEF931",
     "Base200bps_Slope2000bps_Jump20000bps_Kink90": "0x1B37A3CD5D67E85b84Ecf0A9f9FEdA7D00D65860",
     "Base200bps_Slope3000bps": "0x9180eBA19702ab212636C55d7Ab7DBDA1b8aC35f",
     "Base500bps_Slope1200bps": "0x026131b3aC050Cde7Ab2A4A6C38C3a5D0402Fec3",
@@ -44,8 +44,8 @@
     "address": "0x36283a6D07341eE1548ffED0F709f9F3E1467c3a"
   },
   "CompoundLens": {
-    "name": "CompoundLens",
-    "contract": "CompoundLens"
+    "name": "LodestarLens",
+    "contract": "LodestarLens"
   },
   "Unitroller": {
     "description": "Unitroller",
