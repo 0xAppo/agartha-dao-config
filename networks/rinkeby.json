@@ -11,6 +11,8 @@
     "cUSDC": "0xf310b3ba316527e81A2ce55BBF1f0857744E759B",
     "cETH": "0x724716Eb6677e738e8259891E76849cA58e03767",
     "Maximillion": "0xE49B83E13615bFB526822DA2e1CbC0Ae6bF637bb",
+    "PriceOracle": "0x53b384F35136F8658552299d2F365bb973763be9",
+    "PriceOracleProxy": "0x53b384F35136F8658552299d2F365bb973763be9",
     "Comptroller": "0xFB33E7B01D2Aa3E5C1Cf7f5F75932c437E0D1dB5"
   },
   "Blocks": {
@@ -24,7 +26,8 @@
     "Unitroller": 10690216,
     "cUSDC": 10690223,
     "cETH": 10690224,
-    "Maximillion": 10690230
+    "Maximillion": 10690230,
+    "PriceOracle": 10690185
   },
   "PriceFeed": {},
   "Maximillion": {
@@ -134,5 +137,10 @@
       "base": "20000000000000000",
       "slope": "100000000000000000"
     }
-  }
+  },
+  "PriceOracle": {
+    "description": "SimplePriceOracle",
+    "address": "0x53b384F35136F8658552299d2F365bb973763be9"
+  },
+  "PriceOracleProxy": {}
 }
