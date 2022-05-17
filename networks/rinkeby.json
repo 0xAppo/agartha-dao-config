@@ -114,7 +114,7 @@
     }
   },
   "CTokenDelegate": {
-    "undefined": {
+    "CErc20Delegate": {
       "address": "0x51950b40C57F03A7FDBdF79a8Ca7c1f2273FB37E",
       "contract": "CErc20Delegate",
       "description": "Delegate CErc20Delegate"
