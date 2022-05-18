@@ -1,6 +1,6 @@
 {
   "Contracts": {
-    "CompoundLens": "0x96De17e047dAf6a1623a31b5337ceEd968a601f4",
+    "CompoundLens": "0x3D9e2299f4fa8dcECcE9Ac3b1924315B82D392B3",
     "Base200bps_Slope1000bps": "0x72459e98c7274aCF949E53cdfc13E9D3425D44FF",
     "StdComptroller": "0x97162D22Ad701cf5244AD37BA5D708ED26065E82",
     "PriceFeed": "0x53b384F35136F8658552299d2F365bb973763be9",
