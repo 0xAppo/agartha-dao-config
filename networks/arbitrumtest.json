@@ -45,7 +45,7 @@
   },
   "Comptroller": {
     "StdComptroller": {
-      "address": "0x65122c5120dC798514E6552e755893B77983D562",
+      "address": "0x3a2EDe4581022E1C5F899593A3D48500924128A3",
       "contract": "Comptroller",
       "description": "Comptroller Description"
     }
