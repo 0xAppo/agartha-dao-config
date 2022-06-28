@@ -2,31 +2,31 @@
   "Contracts": {
     "CompoundLens": "0x47c2618a236b114f2247AbF42C4dBe8590Cfb5bE",
     "Base200bps_Slope1000bps": "0x6be94854B8Fc13De7a4352eda71Bd27907BFDc55",
-    "StdComptroller": "0x3a2EDe4581022E1C5F899593A3D48500924128A3",
+    "StdComptroller": "0x31E499aF2566648cc5601b26aF5652cb2e8094fA",
     "cErc20Delegate": "0x9EDC385C1234fE85cc27C1bb44dAEb8E69a6a947",
     "USDC": "0x8950A949b0A413BD2d32B1b9561d2Ff067e56AB4",
-    "Unitroller": "0x960D677C6E2042709a968aA960D1550a8F0DA184",
+    "Unitroller": "0xEE56c05662C6adb9A8f5F7BE5A94DE9A8dc1F7a9",
     "cUSDC": "0x0731fd1e8286569CCA074f09C91EBc80B2c116C5",
     "cETH": "0x00d7c8cA26ff2E263aDc42B89D2F1cBE15efb8d5",
     "Maximillion": "0xAC08D25625d57C1a339D41Eb0151DD7D455390ce",
     "PriceFeed": "0xd97f670109e3b9d5580D5276fD1386896d757592",
     "PriceOracleProxy": "0xd97f670109e3b9d5580D5276fD1386896d757592",
     "PriceOracle": "0xd97f670109e3b9d5580D5276fD1386896d757592",
-    "Comptroller": "0x960D677C6E2042709a968aA960D1550a8F0DA184",
+    "Comptroller": "0xEE56c05662C6adb9A8f5F7BE5A94DE9A8dc1F7a9",
     "Fauceteer": "0x10726F117E36B82737676c3e0d50B5ba67C17e45"
   },
   "Blocks": {
     "CompoundLens": 13288901,
     "Base200bps_Slope1000bps": 13155231,
-    "StdComptroller": 13219623,
+    "StdComptroller": 13278309,
     "cErc20Delegate": 13155217,
     "USDC": 13155213,
-    "Unitroller": 13155221,
+    "Unitroller": 13278290,
     "cUSDC": 13155814,
     "cETH": 13155818,
     "Maximillion": 13155821,
     "PriceOracle": 13155824,
-    "Comptroller": 13219623,
+    "Comptroller": 13278309,
     "Fauceteer": 13155828
   },
   "PriceFeed": {},
@@ -41,11 +41,11 @@
   },
   "Unitroller": {
     "description": "Unitroller",
-    "address": "0x960D677C6E2042709a968aA960D1550a8F0DA184"
+    "address": "0xEE56c05662C6adb9A8f5F7BE5A94DE9A8dc1F7a9"
   },
   "Comptroller": {
     "StdComptroller": {
-      "address": "0x3a2EDe4581022E1C5F899593A3D48500924128A3",
+      "address": "0x31E499aF2566648cc5601b26aF5652cb2e8094fA",
       "contract": "Comptroller",
       "description": "Comptroller Description"
     }
