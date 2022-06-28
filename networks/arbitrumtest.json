@@ -1,6 +1,6 @@
 {
   "Contracts": {
-    "CompoundLens": "0x578e0F5Ec15a9D532bFd7A0f89C6538a3433DD52",
+    "CompoundLens": "0x47c2618a236b114f2247AbF42C4dBe8590Cfb5bE",
     "Base200bps_Slope1000bps": "0x6be94854B8Fc13De7a4352eda71Bd27907BFDc55",
     "StdComptroller": "0x3a2EDe4581022E1C5F899593A3D48500924128A3",
     "cErc20Delegate": "0x9EDC385C1234fE85cc27C1bb44dAEb8E69a6a947",
@@ -16,7 +16,7 @@
     "Fauceteer": "0x10726F117E36B82737676c3e0d50B5ba67C17e45"
   },
   "Blocks": {
-    "CompoundLens": 13264591,
+    "CompoundLens": 13288901,
     "Base200bps_Slope1000bps": 13155231,
     "StdComptroller": 13219623,
     "cErc20Delegate": 13155217,
