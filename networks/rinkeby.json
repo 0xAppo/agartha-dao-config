@@ -2,7 +2,7 @@
   "Contracts": {
     "CompoundLens": "0x3D9e2299f4fa8dcECcE9Ac3b1924315B82D392B3",
     "Base200bps_Slope1000bps": "0x72459e98c7274aCF949E53cdfc13E9D3425D44FF",
-    "StdComptroller": "0x97162D22Ad701cf5244AD37BA5D708ED26065E82",
+    "StdComptroller": "0x65122c5120dC798514E6552e755893B77983D562",
     "PriceFeed": "0x53b384F35136F8658552299d2F365bb973763be9",
     "cErc20Delegate": "0x117Ac0181e7a3B55054D73688074d22EcA430CE4",
     "USDC": "0xeB7888Dd4E4214D73c828899191E5948B28bEC9e",
@@ -45,7 +45,7 @@
   },
   "Comptroller": {
     "StdComptroller": {
-      "address": "0x97162D22Ad701cf5244AD37BA5D708ED26065E82",
+      "address": "0x65122c5120dC798514E6552e755893B77983D562",
       "contract": "Comptroller",
       "description": "Comptroller Description"
     }
