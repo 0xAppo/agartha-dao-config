@@ -1,12 +1,12 @@
 {
-  "CompoundLens": [
+  "LodestarLens": [
     {
       "anonymous": false,
       "inputs": [
         {
           "indexed": false,
           "internalType": "address",
-          "name": "cToken",
+          "name": "lToken",
           "type": "address"
         },
         {
@@ -29,384 +29,6 @@
       "constant": false,
       "inputs": [
         {
-          "internalType": "contract CToken",
-          "name": "cToken",
-          "type": "address"
-        },
-        {
-          "internalType": "address payable",
-          "name": "account",
-          "type": "address"
-        }
-      ],
-      "name": "cTokenBalances",
-      "outputs": [
-        {
-          "components": [
-            {
-              "internalType": "address",
-              "name": "cToken",
-              "type": "address"
-            },
-            {
-              "internalType": "uint256",
-              "name": "balanceOf",
-              "type": "uint256"
-            },
-            {
-              "internalType": "uint256",
-              "name": "borrowBalanceCurrent",
-              "type": "uint256"
-            },
-            {
-              "internalType": "uint256",
-              "name": "balanceOfUnderlying",
-              "type": "uint256"
-            },
-            {
-              "internalType": "uint256",
-              "name": "tokenBalance",
-              "type": "uint256"
-            },
-            {
-              "internalType": "uint256",
-              "name": "tokenAllowance",
-              "type": "uint256"
-            }
-          ],
-          "internalType": "struct LodestarLens.CTokenBalances",
-          "name": "",
-          "type": "tuple"
-        }
-      ],
-      "payable": false,
-      "stateMutability": "nonpayable",
-      "type": "function"
-    },
-    {
-      "constant": false,
-      "inputs": [
-        {
-          "internalType": "contract CToken[]",
-          "name": "cTokens",
-          "type": "address[]"
-        },
-        {
-          "internalType": "address payable",
-          "name": "account",
-          "type": "address"
-        }
-      ],
-      "name": "cTokenBalancesAll",
-      "outputs": [
-        {
-          "components": [
-            {
-              "internalType": "address",
-              "name": "cToken",
-              "type": "address"
-            },
-            {
-              "internalType": "uint256",
-              "name": "balanceOf",
-              "type": "uint256"
-            },
-            {
-              "internalType": "uint256",
-              "name": "borrowBalanceCurrent",
-              "type": "uint256"
-            },
-            {
-              "internalType": "uint256",
-              "name": "balanceOfUnderlying",
-              "type": "uint256"
-            },
-            {
-              "internalType": "uint256",
-              "name": "tokenBalance",
-              "type": "uint256"
-            },
-            {
-              "internalType": "uint256",
-              "name": "tokenAllowance",
-              "type": "uint256"
-            }
-          ],
-          "internalType": "struct LodestarLens.CTokenBalances[]",
-          "name": "",
-          "type": "tuple[]"
-        }
-      ],
-      "payable": false,
-      "stateMutability": "nonpayable",
-      "type": "function"
-    },
-    {
-      "constant": false,
-      "inputs": [
-        {
-          "internalType": "contract CToken",
-          "name": "cToken",
-          "type": "address"
-        }
-      ],
-      "name": "cTokenMetadata",
-      "outputs": [
-        {
-          "components": [
-            {
-              "internalType": "address",
-              "name": "cToken",
-              "type": "address"
-            },
-            {
-              "internalType": "uint256",
-              "name": "exchangeRateCurrent",
-              "type": "uint256"
-            },
-            {
-              "internalType": "uint256",
-              "name": "supplyRatePerBlock",
-              "type": "uint256"
-            },
-            {
-              "internalType": "uint256",
-              "name": "borrowRatePerBlock",
-              "type": "uint256"
-            },
-            {
-              "internalType": "uint256",
-              "name": "reserveFactorMantissa",
-              "type": "uint256"
-            },
-            {
-              "internalType": "uint256",
-              "name": "totalBorrows",
-              "type": "uint256"
-            },
-            {
-              "internalType": "uint256",
-              "name": "totalReserves",
-              "type": "uint256"
-            },
-            {
-              "internalType": "uint256",
-              "name": "totalSupply",
-              "type": "uint256"
-            },
-            {
-              "internalType": "uint256",
-              "name": "totalCash",
-              "type": "uint256"
-            },
-            {
-              "internalType": "bool",
-              "name": "isListed",
-              "type": "bool"
-            },
-            {
-              "internalType": "uint256",
-              "name": "collateralFactorMantissa",
-              "type": "uint256"
-            },
-            {
-              "internalType": "address",
-              "name": "underlyingAssetAddress",
-              "type": "address"
-            },
-            {
-              "internalType": "uint256",
-              "name": "cTokenDecimals",
-              "type": "uint256"
-            },
-            {
-              "internalType": "uint256",
-              "name": "underlyingDecimals",
-              "type": "uint256"
-            },
-            {
-              "internalType": "uint256",
-              "name": "borrowCap",
-              "type": "uint256"
-            }
-          ],
-          "internalType": "struct LodestarLens.CTokenMetadata",
-          "name": "",
-          "type": "tuple"
-        }
-      ],
-      "payable": false,
-      "stateMutability": "nonpayable",
-      "type": "function"
-    },
-    {
-      "constant": false,
-      "inputs": [
-        {
-          "internalType": "contract CToken[]",
-          "name": "cTokens",
-          "type": "address[]"
-        }
-      ],
-      "name": "cTokenMetadataAll",
-      "outputs": [
-        {
-          "components": [
-            {
-              "internalType": "address",
-              "name": "cToken",
-              "type": "address"
-            },
-            {
-              "internalType": "uint256",
-              "name": "exchangeRateCurrent",
-              "type": "uint256"
-            },
-            {
-              "internalType": "uint256",
-              "name": "supplyRatePerBlock",
-              "type": "uint256"
-            },
-            {
-              "internalType": "uint256",
-              "name": "borrowRatePerBlock",
-              "type": "uint256"
-            },
-            {
-              "internalType": "uint256",
-              "name": "reserveFactorMantissa",
-              "type": "uint256"
-            },
-            {
-              "internalType": "uint256",
-              "name": "totalBorrows",
-              "type": "uint256"
-            },
-            {
-              "internalType": "uint256",
-              "name": "totalReserves",
-              "type": "uint256"
-            },
-            {
-              "internalType": "uint256",
-              "name": "totalSupply",
-              "type": "uint256"
-            },
-            {
-              "internalType": "uint256",
-              "name": "totalCash",
-              "type": "uint256"
-            },
-            {
-              "internalType": "bool",
-              "name": "isListed",
-              "type": "bool"
-            },
-            {
-              "internalType": "uint256",
-              "name": "collateralFactorMantissa",
-              "type": "uint256"
-            },
-            {
-              "internalType": "address",
-              "name": "underlyingAssetAddress",
-              "type": "address"
-            },
-            {
-              "internalType": "uint256",
-              "name": "cTokenDecimals",
-              "type": "uint256"
-            },
-            {
-              "internalType": "uint256",
-              "name": "underlyingDecimals",
-              "type": "uint256"
-            },
-            {
-              "internalType": "uint256",
-              "name": "borrowCap",
-              "type": "uint256"
-            }
-          ],
-          "internalType": "struct LodestarLens.CTokenMetadata[]",
-          "name": "",
-          "type": "tuple[]"
-        }
-      ],
-      "payable": false,
-      "stateMutability": "nonpayable",
-      "type": "function"
-    },
-    {
-      "constant": false,
-      "inputs": [
-        {
-          "internalType": "contract CToken",
-          "name": "cToken",
-          "type": "address"
-        }
-      ],
-      "name": "cTokenUnderlyingPrice",
-      "outputs": [
-        {
-          "components": [
-            {
-              "internalType": "address",
-              "name": "cToken",
-              "type": "address"
-            },
-            {
-              "internalType": "uint256",
-              "name": "underlyingPrice",
-              "type": "uint256"
-            }
-          ],
-          "internalType": "struct LodestarLens.CTokenUnderlyingPrice",
-          "name": "",
-          "type": "tuple"
-        }
-      ],
-      "payable": false,
-      "stateMutability": "nonpayable",
-      "type": "function"
-    },
-    {
-      "constant": false,
-      "inputs": [
-        {
-          "internalType": "contract CToken[]",
-          "name": "cTokens",
-          "type": "address[]"
-        }
-      ],
-      "name": "cTokenUnderlyingPriceAll",
-      "outputs": [
-        {
-          "components": [
-            {
-              "internalType": "address",
-              "name": "cToken",
-              "type": "address"
-            },
-            {
-              "internalType": "uint256",
-              "name": "underlyingPrice",
-              "type": "uint256"
-            }
-          ],
-          "internalType": "struct LodestarLens.CTokenUnderlyingPrice[]",
-          "name": "",
-          "type": "tuple[]"
-        }
-      ],
-      "payable": false,
-      "stateMutability": "nonpayable",
-      "type": "function"
-    },
-    {
-      "constant": false,
-      "inputs": [
-        {
           "internalType": "contract ComptrollerLensInterface",
           "name": "comptroller",
           "type": "address"
@@ -422,7 +44,7 @@
         {
           "components": [
             {
-              "internalType": "contract CToken[]",
+              "internalType": "contract LToken[]",
               "name": "markets",
               "type": "address[]"
             },
@@ -440,6 +62,384 @@
           "internalType": "struct LodestarLens.AccountLimits",
           "name": "",
           "type": "tuple"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "internalType": "contract LToken",
+          "name": "lToken",
+          "type": "address"
+        },
+        {
+          "internalType": "address payable",
+          "name": "account",
+          "type": "address"
+        }
+      ],
+      "name": "lTokenBalances",
+      "outputs": [
+        {
+          "components": [
+            {
+              "internalType": "address",
+              "name": "lToken",
+              "type": "address"
+            },
+            {
+              "internalType": "uint256",
+              "name": "balanceOf",
+              "type": "uint256"
+            },
+            {
+              "internalType": "uint256",
+              "name": "borrowBalanceCurrent",
+              "type": "uint256"
+            },
+            {
+              "internalType": "uint256",
+              "name": "balanceOfUnderlying",
+              "type": "uint256"
+            },
+            {
+              "internalType": "uint256",
+              "name": "tokenBalance",
+              "type": "uint256"
+            },
+            {
+              "internalType": "uint256",
+              "name": "tokenAllowance",
+              "type": "uint256"
+            }
+          ],
+          "internalType": "struct LodestarLens.LTokenBalances",
+          "name": "",
+          "type": "tuple"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "internalType": "contract LToken[]",
+          "name": "lTokens",
+          "type": "address[]"
+        },
+        {
+          "internalType": "address payable",
+          "name": "account",
+          "type": "address"
+        }
+      ],
+      "name": "lTokenBalancesAll",
+      "outputs": [
+        {
+          "components": [
+            {
+              "internalType": "address",
+              "name": "lToken",
+              "type": "address"
+            },
+            {
+              "internalType": "uint256",
+              "name": "balanceOf",
+              "type": "uint256"
+            },
+            {
+              "internalType": "uint256",
+              "name": "borrowBalanceCurrent",
+              "type": "uint256"
+            },
+            {
+              "internalType": "uint256",
+              "name": "balanceOfUnderlying",
+              "type": "uint256"
+            },
+            {
+              "internalType": "uint256",
+              "name": "tokenBalance",
+              "type": "uint256"
+            },
+            {
+              "internalType": "uint256",
+              "name": "tokenAllowance",
+              "type": "uint256"
+            }
+          ],
+          "internalType": "struct LodestarLens.LTokenBalances[]",
+          "name": "",
+          "type": "tuple[]"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "internalType": "contract LToken",
+          "name": "lToken",
+          "type": "address"
+        }
+      ],
+      "name": "lTokenMetadata",
+      "outputs": [
+        {
+          "components": [
+            {
+              "internalType": "address",
+              "name": "lToken",
+              "type": "address"
+            },
+            {
+              "internalType": "uint256",
+              "name": "exchangeRateCurrent",
+              "type": "uint256"
+            },
+            {
+              "internalType": "uint256",
+              "name": "supplyRatePerBlock",
+              "type": "uint256"
+            },
+            {
+              "internalType": "uint256",
+              "name": "borrowRatePerBlock",
+              "type": "uint256"
+            },
+            {
+              "internalType": "uint256",
+              "name": "reserveFactorMantissa",
+              "type": "uint256"
+            },
+            {
+              "internalType": "uint256",
+              "name": "totalBorrows",
+              "type": "uint256"
+            },
+            {
+              "internalType": "uint256",
+              "name": "totalReserves",
+              "type": "uint256"
+            },
+            {
+              "internalType": "uint256",
+              "name": "totalSupply",
+              "type": "uint256"
+            },
+            {
+              "internalType": "uint256",
+              "name": "totalCash",
+              "type": "uint256"
+            },
+            {
+              "internalType": "bool",
+              "name": "isListed",
+              "type": "bool"
+            },
+            {
+              "internalType": "uint256",
+              "name": "collateralFactorMantissa",
+              "type": "uint256"
+            },
+            {
+              "internalType": "address",
+              "name": "underlyingAssetAddress",
+              "type": "address"
+            },
+            {
+              "internalType": "uint256",
+              "name": "lTokenDecimals",
+              "type": "uint256"
+            },
+            {
+              "internalType": "uint256",
+              "name": "underlyingDecimals",
+              "type": "uint256"
+            },
+            {
+              "internalType": "uint256",
+              "name": "borrowCap",
+              "type": "uint256"
+            }
+          ],
+          "internalType": "struct LodestarLens.LTokenMetadata",
+          "name": "",
+          "type": "tuple"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "internalType": "contract LToken[]",
+          "name": "lTokens",
+          "type": "address[]"
+        }
+      ],
+      "name": "lTokenMetadataAll",
+      "outputs": [
+        {
+          "components": [
+            {
+              "internalType": "address",
+              "name": "lToken",
+              "type": "address"
+            },
+            {
+              "internalType": "uint256",
+              "name": "exchangeRateCurrent",
+              "type": "uint256"
+            },
+            {
+              "internalType": "uint256",
+              "name": "supplyRatePerBlock",
+              "type": "uint256"
+            },
+            {
+              "internalType": "uint256",
+              "name": "borrowRatePerBlock",
+              "type": "uint256"
+            },
+            {
+              "internalType": "uint256",
+              "name": "reserveFactorMantissa",
+              "type": "uint256"
+            },
+            {
+              "internalType": "uint256",
+              "name": "totalBorrows",
+              "type": "uint256"
+            },
+            {
+              "internalType": "uint256",
+              "name": "totalReserves",
+              "type": "uint256"
+            },
+            {
+              "internalType": "uint256",
+              "name": "totalSupply",
+              "type": "uint256"
+            },
+            {
+              "internalType": "uint256",
+              "name": "totalCash",
+              "type": "uint256"
+            },
+            {
+              "internalType": "bool",
+              "name": "isListed",
+              "type": "bool"
+            },
+            {
+              "internalType": "uint256",
+              "name": "collateralFactorMantissa",
+              "type": "uint256"
+            },
+            {
+              "internalType": "address",
+              "name": "underlyingAssetAddress",
+              "type": "address"
+            },
+            {
+              "internalType": "uint256",
+              "name": "lTokenDecimals",
+              "type": "uint256"
+            },
+            {
+              "internalType": "uint256",
+              "name": "underlyingDecimals",
+              "type": "uint256"
+            },
+            {
+              "internalType": "uint256",
+              "name": "borrowCap",
+              "type": "uint256"
+            }
+          ],
+          "internalType": "struct LodestarLens.LTokenMetadata[]",
+          "name": "",
+          "type": "tuple[]"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "internalType": "contract LToken",
+          "name": "lToken",
+          "type": "address"
+        }
+      ],
+      "name": "lTokenUnderlyingPrice",
+      "outputs": [
+        {
+          "components": [
+            {
+              "internalType": "address",
+              "name": "lToken",
+              "type": "address"
+            },
+            {
+              "internalType": "uint256",
+              "name": "underlyingPrice",
+              "type": "uint256"
+            }
+          ],
+          "internalType": "struct LodestarLens.LTokenUnderlyingPrice",
+          "name": "",
+          "type": "tuple"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "internalType": "contract LToken[]",
+          "name": "lTokens",
+          "type": "address[]"
+        }
+      ],
+      "name": "lTokenUnderlyingPriceAll",
+      "outputs": [
+        {
+          "components": [
+            {
+              "internalType": "address",
+              "name": "lToken",
+              "type": "address"
+            },
+            {
+              "internalType": "uint256",
+              "name": "underlyingPrice",
+              "type": "uint256"
+            }
+          ],
+          "internalType": "struct LodestarLens.LTokenUnderlyingPrice[]",
+          "name": "",
+          "type": "tuple[]"
         }
       ],
       "payable": false,
@@ -674,8 +674,8 @@
       "inputs": [
         {
           "indexed": false,
-          "internalType": "contract CToken",
-          "name": "cToken",
+          "internalType": "contract LToken",
+          "name": "lToken",
           "type": "address"
         },
         {
@@ -724,8 +724,8 @@
       "inputs": [
         {
           "indexed": false,
-          "internalType": "contract CToken",
-          "name": "cToken",
+          "internalType": "contract LToken",
+          "name": "lToken",
           "type": "address"
         },
         {
@@ -743,8 +743,8 @@
       "inputs": [
         {
           "indexed": false,
-          "internalType": "contract CToken",
-          "name": "cToken",
+          "internalType": "contract LToken",
+          "name": "lToken",
           "type": "address"
         },
         {
@@ -762,8 +762,8 @@
       "inputs": [
         {
           "indexed": false,
-          "internalType": "contract CToken",
-          "name": "cToken",
+          "internalType": "contract LToken",
+          "name": "lToken",
           "type": "address"
         }
       ],
@@ -775,8 +775,8 @@
       "inputs": [
         {
           "indexed": true,
-          "internalType": "contract CToken",
-          "name": "cToken",
+          "internalType": "contract LToken",
+          "name": "lToken",
           "type": "address"
         },
         {
@@ -832,8 +832,8 @@
       "inputs": [
         {
           "indexed": false,
-          "internalType": "contract CToken",
-          "name": "cToken",
+          "internalType": "contract LToken",
+          "name": "lToken",
           "type": "address"
         },
         {
@@ -973,8 +973,8 @@
       "constant": false,
       "inputs": [
         {
-          "internalType": "contract CToken",
-          "name": "cToken",
+          "internalType": "contract LToken",
+          "name": "lToken",
           "type": "address"
         },
         {
@@ -1020,8 +1020,8 @@
       "constant": false,
       "inputs": [
         {
-          "internalType": "contract CToken",
-          "name": "cToken",
+          "internalType": "contract LToken",
+          "name": "lToken",
           "type": "address"
         },
         {
@@ -1067,8 +1067,8 @@
       "constant": false,
       "inputs": [
         {
-          "internalType": "contract CToken[]",
-          "name": "cTokens",
+          "internalType": "contract LToken[]",
+          "name": "lTokens",
           "type": "address[]"
         },
         {
@@ -1087,8 +1087,8 @@
       "constant": false,
       "inputs": [
         {
-          "internalType": "contract CToken",
-          "name": "cToken",
+          "internalType": "contract LToken",
+          "name": "lToken",
           "type": "address"
         },
         {
@@ -1197,8 +1197,8 @@
       "constant": false,
       "inputs": [
         {
-          "internalType": "contract CToken",
-          "name": "cToken",
+          "internalType": "contract LToken",
+          "name": "lToken",
           "type": "address"
         }
       ],
@@ -1231,7 +1231,7 @@
       "name": "accountAssets",
       "outputs": [
         {
-          "internalType": "contract CToken",
+          "internalType": "contract LToken",
           "name": "",
           "type": "address"
         }
@@ -1267,7 +1267,7 @@
       "name": "allMarkets",
       "outputs": [
         {
-          "internalType": "contract CToken",
+          "internalType": "contract LToken",
           "name": "",
           "type": "address"
         }
@@ -1281,7 +1281,7 @@
       "inputs": [
         {
           "internalType": "address",
-          "name": "cToken",
+          "name": "lToken",
           "type": "address"
         },
         {
@@ -1369,7 +1369,7 @@
       "inputs": [
         {
           "internalType": "address",
-          "name": "cToken",
+          "name": "lToken",
           "type": "address"
         },
         {
@@ -1398,8 +1398,8 @@
           "type": "address"
         },
         {
-          "internalType": "contract CToken",
-          "name": "cToken",
+          "internalType": "contract LToken",
+          "name": "lToken",
           "type": "address"
         }
       ],
@@ -1450,7 +1450,7 @@
       "inputs": [
         {
           "internalType": "address[]",
-          "name": "cTokens",
+          "name": "lTokens",
           "type": "address[]"
         }
       ],
@@ -1471,7 +1471,7 @@
       "inputs": [
         {
           "internalType": "address",
-          "name": "cTokenAddress",
+          "name": "lTokenAddress",
           "type": "address"
         }
       ],
@@ -1524,7 +1524,7 @@
       "name": "getAllMarkets",
       "outputs": [
         {
-          "internalType": "contract CToken[]",
+          "internalType": "contract LToken[]",
           "name": "",
           "type": "address[]"
         }
@@ -1545,7 +1545,7 @@
       "name": "getAssetsIn",
       "outputs": [
         {
-          "internalType": "contract CToken[]",
+          "internalType": "contract LToken[]",
           "name": "",
           "type": "address[]"
         }
@@ -1579,7 +1579,7 @@
         },
         {
           "internalType": "address",
-          "name": "cTokenModify",
+          "name": "lTokenModify",
           "type": "address"
         },
         {
@@ -1634,8 +1634,8 @@
       "constant": true,
       "inputs": [
         {
-          "internalType": "contract CToken",
-          "name": "cToken",
+          "internalType": "contract LToken",
+          "name": "lToken",
           "type": "address"
         }
       ],
@@ -1656,12 +1656,12 @@
       "inputs": [
         {
           "internalType": "address",
-          "name": "cTokenBorrowed",
+          "name": "lTokenBorrowed",
           "type": "address"
         },
         {
           "internalType": "address",
-          "name": "cTokenCollateral",
+          "name": "lTokenCollateral",
           "type": "address"
         },
         {
@@ -1697,12 +1697,12 @@
       "inputs": [
         {
           "internalType": "address",
-          "name": "cTokenBorrowed",
+          "name": "lTokenBorrowed",
           "type": "address"
         },
         {
           "internalType": "address",
-          "name": "cTokenCollateral",
+          "name": "lTokenCollateral",
           "type": "address"
         },
         {
@@ -1737,12 +1737,12 @@
       "inputs": [
         {
           "internalType": "address",
-          "name": "cTokenBorrowed",
+          "name": "lTokenBorrowed",
           "type": "address"
         },
         {
           "internalType": "address",
-          "name": "cTokenCollateral",
+          "name": "lTokenCollateral",
           "type": "address"
         },
         {
@@ -1829,7 +1829,7 @@
       "inputs": [
         {
           "internalType": "address",
-          "name": "cToken",
+          "name": "lToken",
           "type": "address"
         },
         {
@@ -1881,7 +1881,7 @@
       "inputs": [
         {
           "internalType": "address",
-          "name": "cToken",
+          "name": "lToken",
           "type": "address"
         },
         {
@@ -1971,7 +1971,7 @@
       "inputs": [
         {
           "internalType": "address",
-          "name": "cToken",
+          "name": "lToken",
           "type": "address"
         },
         {
@@ -2002,7 +2002,7 @@
       "inputs": [
         {
           "internalType": "address",
-          "name": "cToken",
+          "name": "lToken",
           "type": "address"
         },
         {
@@ -2032,7 +2032,7 @@
       "inputs": [
         {
           "internalType": "address",
-          "name": "cToken",
+          "name": "lToken",
           "type": "address"
         },
         {
@@ -2068,7 +2068,7 @@
       "inputs": [
         {
           "internalType": "address",
-          "name": "cToken",
+          "name": "lToken",
           "type": "address"
         },
         {
@@ -2103,12 +2103,12 @@
       "inputs": [
         {
           "internalType": "address",
-          "name": "cTokenCollateral",
+          "name": "lTokenCollateral",
           "type": "address"
         },
         {
           "internalType": "address",
-          "name": "cTokenBorrowed",
+          "name": "lTokenBorrowed",
           "type": "address"
         },
         {
@@ -2159,12 +2159,12 @@
       "inputs": [
         {
           "internalType": "address",
-          "name": "cTokenCollateral",
+          "name": "lTokenCollateral",
           "type": "address"
         },
         {
           "internalType": "address",
-          "name": "cTokenBorrowed",
+          "name": "lTokenBorrowed",
           "type": "address"
         },
         {
@@ -2194,7 +2194,7 @@
       "inputs": [
         {
           "internalType": "address",
-          "name": "cToken",
+          "name": "lToken",
           "type": "address"
         },
         {
@@ -2245,7 +2245,7 @@
       "inputs": [
         {
           "internalType": "address",
-          "name": "cToken",
+          "name": "lToken",
           "type": "address"
         },
         {
@@ -2328,8 +2328,8 @@
       "constant": true,
       "inputs": [
         {
-          "internalType": "contract CToken",
-          "name": "cToken",
+          "internalType": "contract LToken",
+          "name": "lToken",
           "type": "address"
         }
       ],
@@ -2384,8 +2384,8 @@
       "constant": false,
       "inputs": [
         {
-          "internalType": "contract CToken",
-          "name": "cToken",
+          "internalType": "contract LToken",
+          "name": "lToken",
           "type": "address"
         },
         {
@@ -2544,7 +2544,7 @@
         {
           "indexed": false,
           "internalType": "address",
-          "name": "cTokenCollateral",
+          "name": "lTokenCollateral",
           "type": "address"
         },
         {
@@ -3455,7 +3455,7 @@
     {
       "constant": true,
       "inputs": [],
-      "name": "isCToken",
+      "name": "isLToken",
       "outputs": [
         {
           "internalType": "bool",
@@ -3481,8 +3481,8 @@
           "type": "uint256"
         },
         {
-          "internalType": "contract CTokenInterface",
-          "name": "cTokenCollateral",
+          "internalType": "contract LTokenInterface",
+          "name": "lTokenCollateral",
           "type": "address"
         }
       ],
@@ -4020,7 +4020,7 @@
         {
           "indexed": false,
           "internalType": "address",
-          "name": "cTokenCollateral",
+          "name": "lTokenCollateral",
           "type": "address"
         },
         {
@@ -4931,7 +4931,7 @@
     {
       "constant": true,
       "inputs": [],
-      "name": "isCToken",
+      "name": "isLToken",
       "outputs": [
         {
           "internalType": "bool",
@@ -4957,8 +4957,8 @@
           "type": "uint256"
         },
         {
-          "internalType": "contract CTokenInterface",
-          "name": "cTokenCollateral",
+          "internalType": "contract LTokenInterface",
+          "name": "lTokenCollateral",
           "type": "address"
         }
       ],
@@ -6209,7 +6209,7 @@
       "type": "function"
     }
   ],
-  "cUSDC": [
+  "lUSDC": [
     {
       "inputs": [
         {
@@ -6403,7 +6403,7 @@
         {
           "indexed": false,
           "internalType": "address",
-          "name": "cTokenCollateral",
+          "name": "lTokenCollateral",
           "type": "address"
         },
         {
@@ -7281,7 +7281,7 @@
     {
       "constant": true,
       "inputs": [],
-      "name": "isCToken",
+      "name": "isLToken",
       "outputs": [
         {
           "internalType": "bool",
@@ -7307,8 +7307,8 @@
           "type": "uint256"
         },
         {
-          "internalType": "contract CTokenInterface",
-          "name": "cTokenCollateral",
+          "internalType": "contract LTokenInterface",
+          "name": "lTokenCollateral",
           "type": "address"
         }
       ],
@@ -7703,7 +7703,7 @@
       "type": "function"
     }
   ],
-  "cETH": [
+  "lETH": [
     {
       "inputs": [
         {
@@ -7882,7 +7882,7 @@
         {
           "indexed": false,
           "internalType": "address",
-          "name": "cTokenCollateral",
+          "name": "lTokenCollateral",
           "type": "address"
         },
         {
@@ -8693,7 +8693,7 @@
     {
       "constant": true,
       "inputs": [],
-      "name": "isCToken",
+      "name": "isLToken",
       "outputs": [
         {
           "internalType": "bool",
@@ -8714,8 +8714,8 @@
           "type": "address"
         },
         {
-          "internalType": "contract CToken",
-          "name": "cTokenCollateral",
+          "internalType": "contract LToken",
+          "name": "lTokenCollateral",
           "type": "address"
         }
       ],
@@ -9233,7 +9233,7 @@
         {
           "indexed": false,
           "internalType": "address",
-          "name": "cTokenCollateral",
+          "name": "lTokenCollateral",
           "type": "address"
         },
         {
@@ -10111,7 +10111,7 @@
     {
       "constant": true,
       "inputs": [],
-      "name": "isCToken",
+      "name": "isLToken",
       "outputs": [
         {
           "internalType": "bool",
@@ -10137,8 +10137,8 @@
           "type": "uint256"
         },
         {
-          "internalType": "contract CTokenInterface",
-          "name": "cTokenCollateral",
+          "internalType": "contract LTokenInterface",
+          "name": "lTokenCollateral",
           "type": "address"
         }
       ],
@@ -10537,8 +10537,8 @@
     {
       "inputs": [
         {
-          "internalType": "contract CEther",
-          "name": "cEther_",
+          "internalType": "contract LEther",
+          "name": "lEther_",
           "type": "address"
         }
       ],
@@ -10549,10 +10549,10 @@
     {
       "constant": true,
       "inputs": [],
-      "name": "cEther",
+      "name": "lEther",
       "outputs": [
         {
-          "internalType": "contract CEther",
+          "internalType": "contract LEther",
           "name": "",
           "type": "address"
         }
@@ -10585,8 +10585,8 @@
           "type": "address"
         },
         {
-          "internalType": "contract CEther",
-          "name": "cEther_",
+          "internalType": "contract LEther",
+          "name": "lEther_",
           "type": "address"
         }
       ],
@@ -10654,8 +10654,8 @@
       "constant": true,
       "inputs": [
         {
-          "internalType": "contract CToken",
-          "name": "cToken",
+          "internalType": "contract LToken",
+          "name": "lToken",
           "type": "address"
         }
       ],
@@ -10710,8 +10710,8 @@
       "constant": false,
       "inputs": [
         {
-          "internalType": "contract CToken",
-          "name": "cToken",
+          "internalType": "contract LToken",
+          "name": "lToken",
           "type": "address"
         },
         {
@@ -10784,8 +10784,8 @@
       "constant": true,
       "inputs": [
         {
-          "internalType": "contract CToken",
-          "name": "cToken",
+          "internalType": "contract LToken",
+          "name": "lToken",
           "type": "address"
         }
       ],
@@ -10840,8 +10840,8 @@
       "constant": false,
       "inputs": [
         {
-          "internalType": "contract CToken",
-          "name": "cToken",
+          "internalType": "contract LToken",
+          "name": "lToken",
           "type": "address"
         },
         {
@@ -11147,8 +11147,8 @@
       "inputs": [
         {
           "indexed": false,
-          "internalType": "contract CToken",
-          "name": "cToken",
+          "internalType": "contract LToken",
+          "name": "lToken",
           "type": "address"
         },
         {
@@ -11197,8 +11197,8 @@
       "inputs": [
         {
           "indexed": false,
-          "internalType": "contract CToken",
-          "name": "cToken",
+          "internalType": "contract LToken",
+          "name": "lToken",
           "type": "address"
         },
         {
@@ -11216,8 +11216,8 @@
       "inputs": [
         {
           "indexed": false,
-          "internalType": "contract CToken",
-          "name": "cToken",
+          "internalType": "contract LToken",
+          "name": "lToken",
           "type": "address"
         },
         {
@@ -11235,8 +11235,8 @@
       "inputs": [
         {
           "indexed": false,
-          "internalType": "contract CToken",
-          "name": "cToken",
+          "internalType": "contract LToken",
+          "name": "lToken",
           "type": "address"
         }
       ],
@@ -11248,8 +11248,8 @@
       "inputs": [
         {
           "indexed": true,
-          "internalType": "contract CToken",
-          "name": "cToken",
+          "internalType": "contract LToken",
+          "name": "lToken",
           "type": "address"
         },
         {
@@ -11305,8 +11305,8 @@
       "inputs": [
         {
           "indexed": false,
-          "internalType": "contract CToken",
-          "name": "cToken",
+          "internalType": "contract LToken",
+          "name": "lToken",
           "type": "address"
         },
         {
@@ -11446,8 +11446,8 @@
       "constant": false,
       "inputs": [
         {
-          "internalType": "contract CToken",
-          "name": "cToken",
+          "internalType": "contract LToken",
+          "name": "lToken",
           "type": "address"
         },
         {
@@ -11493,8 +11493,8 @@
       "constant": false,
       "inputs": [
         {
-          "internalType": "contract CToken",
-          "name": "cToken",
+          "internalType": "contract LToken",
+          "name": "lToken",
           "type": "address"
         },
         {
@@ -11540,8 +11540,8 @@
       "constant": false,
       "inputs": [
         {
-          "internalType": "contract CToken[]",
-          "name": "cTokens",
+          "internalType": "contract LToken[]",
+          "name": "lTokens",
           "type": "address[]"
         },
         {
@@ -11560,8 +11560,8 @@
       "constant": false,
       "inputs": [
         {
-          "internalType": "contract CToken",
-          "name": "cToken",
+          "internalType": "contract LToken",
+          "name": "lToken",
           "type": "address"
         },
         {
@@ -11670,8 +11670,8 @@
       "constant": false,
       "inputs": [
         {
-          "internalType": "contract CToken",
-          "name": "cToken",
+          "internalType": "contract LToken",
+          "name": "lToken",
           "type": "address"
         }
       ],
@@ -11704,7 +11704,7 @@
       "name": "accountAssets",
       "outputs": [
         {
-          "internalType": "contract CToken",
+          "internalType": "contract LToken",
           "name": "",
           "type": "address"
         }
@@ -11740,7 +11740,7 @@
       "name": "allMarkets",
       "outputs": [
         {
-          "internalType": "contract CToken",
+          "internalType": "contract LToken",
           "name": "",
           "type": "address"
         }
@@ -11754,7 +11754,7 @@
       "inputs": [
         {
           "internalType": "address",
-          "name": "cToken",
+          "name": "lToken",
           "type": "address"
         },
         {
@@ -11842,7 +11842,7 @@
       "inputs": [
         {
           "internalType": "address",
-          "name": "cToken",
+          "name": "lToken",
           "type": "address"
         },
         {
@@ -11871,8 +11871,8 @@
           "type": "address"
         },
         {
-          "internalType": "contract CToken",
-          "name": "cToken",
+          "internalType": "contract LToken",
+          "name": "lToken",
           "type": "address"
         }
       ],
@@ -11923,7 +11923,7 @@
       "inputs": [
         {
           "internalType": "address[]",
-          "name": "cTokens",
+          "name": "lTokens",
           "type": "address[]"
         }
       ],
@@ -11944,7 +11944,7 @@
       "inputs": [
         {
           "internalType": "address",
-          "name": "cTokenAddress",
+          "name": "lTokenAddress",
           "type": "address"
         }
       ],
@@ -11997,7 +11997,7 @@
       "name": "getAllMarkets",
       "outputs": [
         {
-          "internalType": "contract CToken[]",
+          "internalType": "contract LToken[]",
           "name": "",
           "type": "address[]"
         }
@@ -12018,7 +12018,7 @@
       "name": "getAssetsIn",
       "outputs": [
         {
-          "internalType": "contract CToken[]",
+          "internalType": "contract LToken[]",
           "name": "",
           "type": "address[]"
         }
@@ -12052,7 +12052,7 @@
         },
         {
           "internalType": "address",
-          "name": "cTokenModify",
+          "name": "lTokenModify",
           "type": "address"
         },
         {
@@ -12107,8 +12107,8 @@
       "constant": true,
       "inputs": [
         {
-          "internalType": "contract CToken",
-          "name": "cToken",
+          "internalType": "contract LToken",
+          "name": "lToken",
           "type": "address"
         }
       ],
@@ -12129,12 +12129,12 @@
       "inputs": [
         {
           "internalType": "address",
-          "name": "cTokenBorrowed",
+          "name": "lTokenBorrowed",
           "type": "address"
         },
         {
           "internalType": "address",
-          "name": "cTokenCollateral",
+          "name": "lTokenCollateral",
           "type": "address"
         },
         {
@@ -12170,12 +12170,12 @@
       "inputs": [
         {
           "internalType": "address",
-          "name": "cTokenBorrowed",
+          "name": "lTokenBorrowed",
           "type": "address"
         },
         {
           "internalType": "address",
-          "name": "cTokenCollateral",
+          "name": "lTokenCollateral",
           "type": "address"
         },
         {
@@ -12210,12 +12210,12 @@
       "inputs": [
         {
           "internalType": "address",
-          "name": "cTokenBorrowed",
+          "name": "lTokenBorrowed",
           "type": "address"
         },
         {
           "internalType": "address",
-          "name": "cTokenCollateral",
+          "name": "lTokenCollateral",
           "type": "address"
         },
         {
@@ -12302,7 +12302,7 @@
       "inputs": [
         {
           "internalType": "address",
-          "name": "cToken",
+          "name": "lToken",
           "type": "address"
         },
         {
@@ -12354,7 +12354,7 @@
       "inputs": [
         {
           "internalType": "address",
-          "name": "cToken",
+          "name": "lToken",
           "type": "address"
         },
         {
@@ -12444,7 +12444,7 @@
       "inputs": [
         {
           "internalType": "address",
-          "name": "cToken",
+          "name": "lToken",
           "type": "address"
         },
         {
@@ -12475,7 +12475,7 @@
       "inputs": [
         {
           "internalType": "address",
-          "name": "cToken",
+          "name": "lToken",
           "type": "address"
         },
         {
@@ -12505,7 +12505,7 @@
       "inputs": [
         {
           "internalType": "address",
-          "name": "cToken",
+          "name": "lToken",
           "type": "address"
         },
         {
@@ -12541,7 +12541,7 @@
       "inputs": [
         {
           "internalType": "address",
-          "name": "cToken",
+          "name": "lToken",
           "type": "address"
         },
         {
@@ -12576,12 +12576,12 @@
       "inputs": [
         {
           "internalType": "address",
-          "name": "cTokenCollateral",
+          "name": "lTokenCollateral",
           "type": "address"
         },
         {
           "internalType": "address",
-          "name": "cTokenBorrowed",
+          "name": "lTokenBorrowed",
           "type": "address"
         },
         {
@@ -12632,12 +12632,12 @@
       "inputs": [
         {
           "internalType": "address",
-          "name": "cTokenCollateral",
+          "name": "lTokenCollateral",
           "type": "address"
         },
         {
           "internalType": "address",
-          "name": "cTokenBorrowed",
+          "name": "lTokenBorrowed",
           "type": "address"
         },
         {
@@ -12667,7 +12667,7 @@
       "inputs": [
         {
           "internalType": "address",
-          "name": "cToken",
+          "name": "lToken",
           "type": "address"
         },
         {
@@ -12718,7 +12718,7 @@
       "inputs": [
         {
           "internalType": "address",
-          "name": "cToken",
+          "name": "lToken",
           "type": "address"
         },
         {
