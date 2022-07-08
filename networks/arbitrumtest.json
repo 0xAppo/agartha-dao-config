@@ -1,6 +1,6 @@
 {
   "Contracts": {
-    "CompoundLens": "0xeed23AD9f6C7aB1B85614fccc67cc9f174B489fA",
+    "CompoundLens": "0x06b167eB5c1917ABf1bF8eE9EF6Eb2FC8b8625E6",
     "Base200bps_Slope1000bps": "0x477BfD4557e2f4D5A696878893c7eFce998278AC",
     "StdComptroller": "0x78B88C3aB2CB07eD3194c16e3a6808D90E9936c7",
     "USDCDelegate": "0xD786f0e5C8C5a30884146184671d0cb024F25b26",
@@ -34,7 +34,7 @@
     "SPELLDelegate": "0x1D2C25c1961d9784DE46e68796c6F7c22336Cd95"
   },
   "Blocks": {
-    "CompoundLens": 13475523,
+    "CompoundLens": 13478046,
     "Base200bps_Slope1000bps": 13474626,
     "StdComptroller": 13475236,
     "USDCDelegate": 13474615,
