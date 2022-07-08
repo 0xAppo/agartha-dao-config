@@ -27929,6 +27929,11 @@
           "internalType": "address",
           "name": "ethUsdAggregator_",
           "type": "address"
+        },
+        {
+          "internalType": "address",
+          "name": "letheraddress_",
+          "type": "address"
         }
       ],
       "payable": false,
@@ -28142,6 +28147,21 @@
           "internalType": "bool",
           "name": "",
           "type": "bool"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "letheraddress",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
         }
       ],
       "payable": false,
