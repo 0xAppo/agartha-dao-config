@@ -37,7 +37,7 @@
     "lplvGLP": "0x758796D0cF74902F687bf8ccf2f78AF7c6475f81",
     "Maximillion": "0xd0563f7946140c66D056FB04d629D5aC9FEb4b78",
     "PriceOracle": "0x97c90be33d23336aD32E5eE8b4AFf7949B240B78",
-    "PriceOracleProxy": "0xF0668CBDab2e9F68FEfCbCAE5fEAbDA4Fe5Ea829",
+    "PriceOracleProxy": "0x674AFd50ff6F31Af8B9f8fCe8C853848E6D0C0fa",
     "Comptroller": "0xbd2107a3457A5A8ceCa7BE0A720621B8E2F55439"
   },
   "Blocks": {
@@ -78,7 +78,7 @@
     "lplvGLP": 15406513,
     "Maximillion": 15406523,
     "PriceOracle": 15406528,
-    "PriceOracleProxy": 15406538,
+    "PriceOracleProxy": 15472383,
     "Comptroller": 15406467
   },
   "PriceFeed": {},
@@ -401,6 +401,6 @@
     "lUSDT": "0x49D38304a2F848F047c42564cFD4Bf79D81e40F2",
     "lFRAX": "0x4144E81c33722f45DAE4f314Ff3c0F37132C8FC5",
     "lplvGLP": "0x758796D0cF74902F687bf8ccf2f78AF7c6475f81",
-    "address": "0xF0668CBDab2e9F68FEfCbCAE5fEAbDA4Fe5Ea829"
+    "address": "0x674AFd50ff6F31Af8B9f8fCe8C853848E6D0C0fa"
   }
 }
