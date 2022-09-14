@@ -1,12 +1,12 @@
 {
   "Contracts": {
-    "CompoundLens": "0xeA99738158AF2efa12A2A6Fce53a0fa04af73e3a",
+    "CompoundLens": "0xeBB4aFF1876B14DD870D9F4912D5b7b1211094A1",
     "JumpRateModel_1": "0xe2F5890385932cAd882aE2e4a93442E179C508B3",
     "JumpRateModel_2": "0x86D02b2A23bB6EED1b3D063058Ad6bA08b4479DC",
     "JumpRateModel_3": "0x8d5116C060a101EFFfCa792A13d2BcDD9446aA87",
     "JumpRateModel_4": "0x07A4db5F7F203A820C0442dbD6d78Ab62c9c8038",
     "JumpRateModel_5": "0xDF545eF3C16761c9536c924a6b8792055BAD02f7",
-    "StdComptroller": "0x72Bf8cF2E7495d0635EdcDc1eA725cEd04284E7c",
+    "StdComptroller": "0xe748318d21e749B910f0001Fe4bFfaF0d2C616c9",
     "PriceFeed": "0xc33B6C783330f488b2B2836ca0C4784EaBA774B3",
     "USDCDelegate": "0xAA66FBEF3aA5C5a6D9BF9B5445CC77E05492cEa6",
     "MAGICDelegate": "0x8F984d9CA284f8B7177ae27E553ce252d890816e",
@@ -41,13 +41,13 @@
     "Comptroller": "0x043098f5c65f6Ee1fDcEba00611FF3F8D9Ad1d1B"
   },
   "Blocks": {
-    "CompoundLens": 15479403,
+    "CompoundLens": 15481119,
     "JumpRateModel_1": 15479001,
     "JumpRateModel_2": 15479003,
     "JumpRateModel_3": 15479006,
     "JumpRateModel_4": 15479010,
     "JumpRateModel_5": 15479016,
-    "StdComptroller": 15478997,
+    "StdComptroller": 15480679,
     "PriceFeed": 15479085,
     "USDCDelegate": 15478990,
     "MAGICDelegate": 15478983,
@@ -79,7 +79,7 @@
     "Maximillion": 15479079,
     "PriceOracle": 15479085,
     "PriceOracleProxy": 15479096,
-    "Comptroller": 15478997
+    "Comptroller": 15480679
   },
   "PriceFeed": {},
   "Maximillion": {
@@ -97,7 +97,7 @@
   },
   "Comptroller": {
     "StdComptroller": {
-      "address": "0x72Bf8cF2E7495d0635EdcDc1eA725cEd04284E7c",
+      "address": "0xe748318d21e749B910f0001Fe4bFfaF0d2C616c9",
       "contract": "Comptroller",
       "description": "Comptroller Description"
     }
