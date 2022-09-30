@@ -32393,6 +32393,11 @@
         },
         {
           "internalType": "address",
+          "name": "flags_",
+          "type": "address"
+        },
+        {
+          "internalType": "address",
           "name": "letheraddress_",
           "type": "address"
         },
