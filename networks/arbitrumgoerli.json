@@ -1,6 +1,6 @@
 {
   "Contracts": {
-    "CompoundLens": "0xFB33E7B01D2Aa3E5C1Cf7f5F75932c437E0D1dB5",
+    "CompoundLens": "0xcC3AC74EF2AC844b2a95712d03EA8629d393820c",
     "JumpRateModel_1": "0x9180eBA19702ab212636C55d7Ab7DBDA1b8aC35f",
     "JumpRateModel_2": "0x026131b3aC050Cde7Ab2A4A6C38C3a5D0402Fec3",
     "JumpRateModel_3": "0x65122c5120dC798514E6552e755893B77983D562",
@@ -41,7 +41,7 @@
     "Comptroller": "0x89bAfAC5b774c6a1Fa4E39D4ed65700046e42357"
   },
   "Blocks": {
-    "CompoundLens": 587030,
+    "CompoundLens": 587111,
     "JumpRateModel_1": 571392,
     "JumpRateModel_2": 571394,
     "JumpRateModel_3": 571396,
