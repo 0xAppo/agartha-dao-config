@@ -42,7 +42,7 @@
     "lstETH": "0x724716Eb6677e738e8259891E76849cA58e03767",
     "lDAI": "0xf310b3ba316527e81A2ce55BBF1f0857744E759B",
     "lplvGLP": "0xb19Dd6599e2D7f10c1168422c2edd30144494563",
-    "lLODE": "0x1155f3F5B190C2ceb42ED74d12A4021B5712ed31",
+    "lLODE": "0xEDa84625ad0Ef7a2f24c54180cd6006D4256aaC5",
     "Maximillion": "0x0005fDFfFbbcD484677159ca4Af6fAC85BE211A9",
     "PriceOracle": "0xc713E031d2aE957DBE4f6a09BAD264005a0f72A4",
     "PriceOracleProxy": "0x749C0F1453A7d69ca2138E315BEeD4Ac19b0dB26",
@@ -92,7 +92,7 @@
     "lstETH": 608466,
     "lDAI": 608465,
     "lplvGLP": 571414,
-    "lLODE": 742815,
+    "lLODE": 743656,
     "Maximillion": 571423,
     "PriceOracle": 571424,
     "PriceOracleProxy": 742820,
@@ -413,7 +413,7 @@
       "name": "Lodestar LODE Token",
       "symbol": "lLODE",
       "decimals": 8,
-      "address": "0x1155f3F5B190C2ceb42ED74d12A4021B5712ed31",
+      "address": "0xEDa84625ad0Ef7a2f24c54180cd6006D4256aaC5",
       "initial_exchange_rate_mantissa": "200000000000000000000000000",
       "admin": "0x67E57A0ec37768eaF99a364975ec4E1f98920D01",
       "contract": "CErc20Delegator"
@@ -488,7 +488,7 @@
     "lstETH": "0x724716Eb6677e738e8259891E76849cA58e03767",
     "lDAI": "0xf310b3ba316527e81A2ce55BBF1f0857744E759B",
     "lplvGLP": "0xb19Dd6599e2D7f10c1168422c2edd30144494563",
-    "lLODE": "0x1155f3F5B190C2ceb42ED74d12A4021B5712ed31",
+    "lLODE": "0xEDa84625ad0Ef7a2f24c54180cd6006D4256aaC5",
     "address": "0x749C0F1453A7d69ca2138E315BEeD4Ac19b0dB26"
   }
 }
