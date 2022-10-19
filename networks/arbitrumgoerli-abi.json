@@ -48,7 +48,7 @@
               "type": "uint256"
             }
           ],
-          "internalType": "struct CompoundLens.CTokenBalances",
+          "internalType": "struct CompoundLensOriginal.CTokenBalances",
           "name": "",
           "type": "tuple"
         }
@@ -104,7 +104,7 @@
               "type": "uint256"
             }
           ],
-          "internalType": "struct CompoundLens.CTokenBalances[]",
+          "internalType": "struct CompoundLensOriginal.CTokenBalances[]",
           "name": "",
           "type": "tuple[]"
         }
@@ -210,7 +210,7 @@
               "type": "uint256"
             }
           ],
-          "internalType": "struct CompoundLens.CTokenMetadata",
+          "internalType": "struct CompoundLensOriginal.CTokenMetadata",
           "name": "",
           "type": "tuple"
         }
@@ -316,7 +316,7 @@
               "type": "uint256"
             }
           ],
-          "internalType": "struct CompoundLens.CTokenMetadata[]",
+          "internalType": "struct CompoundLensOriginal.CTokenMetadata[]",
           "name": "",
           "type": "tuple[]"
         }
@@ -347,7 +347,7 @@
               "type": "uint256"
             }
           ],
-          "internalType": "struct CompoundLens.CTokenUnderlyingPrice",
+          "internalType": "struct CompoundLensOriginal.CTokenUnderlyingPrice",
           "name": "",
           "type": "tuple"
         }
@@ -378,7 +378,7 @@
               "type": "uint256"
             }
           ],
-          "internalType": "struct CompoundLens.CTokenUnderlyingPrice[]",
+          "internalType": "struct CompoundLensOriginal.CTokenUnderlyingPrice[]",
           "name": "",
           "type": "tuple[]"
         }
@@ -419,7 +419,7 @@
               "type": "uint256"
             }
           ],
-          "internalType": "struct CompoundLens.AccountLimits",
+          "internalType": "struct CompoundLensOriginal.AccountLimits",
           "name": "",
           "type": "tuple"
         }
@@ -460,7 +460,7 @@
               "type": "address"
             }
           ],
-          "internalType": "struct CompoundLens.CompBalanceMetadata",
+          "internalType": "struct CompoundLensOriginal.CompBalanceMetadata",
           "name": "",
           "type": "tuple"
         }
@@ -511,7 +511,7 @@
               "type": "uint256"
             }
           ],
-          "internalType": "struct CompoundLens.CompBalanceMetadataExt",
+          "internalType": "struct CompoundLensOriginal.CompBalanceMetadataExt",
           "name": "",
           "type": "tuple"
         }
@@ -552,7 +552,7 @@
               "type": "uint256"
             }
           ],
-          "internalType": "struct CompoundLens.CompVotes[]",
+          "internalType": "struct CompoundLensOriginal.CompVotes[]",
           "name": "",
           "type": "tuple[]"
         }
@@ -648,7 +648,7 @@
               "type": "bool"
             }
           ],
-          "internalType": "struct CompoundLens.GovBravoProposal[]",
+          "internalType": "struct CompoundLensOriginal.GovBravoProposal[]",
           "name": "",
           "type": "tuple[]"
         }
@@ -699,7 +699,7 @@
               "type": "uint96"
             }
           ],
-          "internalType": "struct CompoundLens.GovBravoReceipt[]",
+          "internalType": "struct CompoundLensOriginal.GovBravoReceipt[]",
           "name": "",
           "type": "tuple[]"
         }
@@ -790,7 +790,7 @@
               "type": "bool"
             }
           ],
-          "internalType": "struct CompoundLens.GovProposal[]",
+          "internalType": "struct CompoundLensOriginal.GovProposal[]",
           "name": "",
           "type": "tuple[]"
         }
@@ -841,48 +841,12 @@
               "type": "uint96"
             }
           ],
-          "internalType": "struct CompoundLens.GovReceipt[]",
+          "internalType": "struct CompoundLensOriginal.GovReceipt[]",
           "name": "",
           "type": "tuple[]"
         }
       ],
       "stateMutability": "view",
-      "type": "function"
-    },
-    {
-      "inputs": [
-        {
-          "internalType": "address",
-          "name": "_comptroller",
-          "type": "address"
-        },
-        {
-          "internalType": "address",
-          "name": "lodeAddress",
-          "type": "address"
-        }
-      ],
-      "name": "lodePrice",
-      "outputs": [
-        {
-          "components": [
-            {
-              "internalType": "address",
-              "name": "Lode",
-              "type": "address"
-            },
-            {
-              "internalType": "uint256",
-              "name": "LodePrice",
-              "type": "uint256"
-            }
-          ],
-          "internalType": "struct CompoundLens.LodePrice",
-          "name": "",
-          "type": "tuple"
-        }
-      ],
-      "stateMutability": "nonpayable",
       "type": "function"
     }
   ],

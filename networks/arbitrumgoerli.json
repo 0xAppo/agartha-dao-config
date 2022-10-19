@@ -1,6 +1,6 @@
 {
   "Contracts": {
-    "CompoundLens": "0xD808EE44535f315a3D53c74f3367925d4A5051fb",
+    "CompoundLens": "0xC61463CFB4C60972fD92F09a01260c15Eb313fCd",
     "JumpRateModel_1": "0x9180eBA19702ab212636C55d7Ab7DBDA1b8aC35f",
     "JumpRateModel_2": "0x026131b3aC050Cde7Ab2A4A6C38C3a5D0402Fec3",
     "JumpRateModel_3": "0x65122c5120dC798514E6552e755893B77983D562",
@@ -50,7 +50,7 @@
     "LODE": "0xAfAf9DC7ceA96B99BA4eac0a91847C1ca7cD2129"
   },
   "Blocks": {
-    "CompoundLens": 705373,
+    "CompoundLens": 743584,
     "JumpRateModel_1": 571392,
     "JumpRateModel_2": 571394,
     "JumpRateModel_3": 571396,
@@ -414,7 +414,7 @@
       "symbol": "lLODE",
       "decimals": 8,
       "address": "0x1155f3F5B190C2ceb42ED74d12A4021B5712ed31",
-      "initial_exchange_rate_mantissa": "20000000000000000",
+      "initial_exchange_rate_mantissa": "200000000000000000000000000",
       "admin": "0x67E57A0ec37768eaF99a364975ec4E1f98920D01",
       "contract": "CErc20Delegator"
     }
