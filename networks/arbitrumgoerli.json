@@ -1,6 +1,6 @@
 {
   "Contracts": {
-    "CompoundLens": "0xC61463CFB4C60972fD92F09a01260c15Eb313fCd",
+    "CompoundLens": "0x083a2E49cAd008cfee55b452bdFd471fEbF02754",
     "JumpRateModel_1": "0x9180eBA19702ab212636C55d7Ab7DBDA1b8aC35f",
     "JumpRateModel_2": "0x026131b3aC050Cde7Ab2A4A6C38C3a5D0402Fec3",
     "JumpRateModel_3": "0x65122c5120dC798514E6552e755893B77983D562",
@@ -45,12 +45,12 @@
     "lLODE": "0xEDa84625ad0Ef7a2f24c54180cd6006D4256aaC5",
     "Maximillion": "0x0005fDFfFbbcD484677159ca4Af6fAC85BE211A9",
     "PriceOracle": "0xc713E031d2aE957DBE4f6a09BAD264005a0f72A4",
-    "PriceOracleProxy": "0x41324c75CfB0E9fCbda4333B81aCCe518C6740aC",
+    "PriceOracleProxy": "0xD2b8c6C60d9Fb5889aAE20d26bE0EcE6A68D491d",
     "Comptroller": "0x89bAfAC5b774c6a1Fa4E39D4ed65700046e42357",
     "LODE": "0xAfAf9DC7ceA96B99BA4eac0a91847C1ca7cD2129"
   },
   "Blocks": {
-    "CompoundLens": 743584,
+    "CompoundLens": 863149,
     "JumpRateModel_1": 571392,
     "JumpRateModel_2": 571394,
     "JumpRateModel_3": 571396,
@@ -95,7 +95,7 @@
     "lLODE": 743656,
     "Maximillion": 571423,
     "PriceOracle": 571424,
-    "PriceOracleProxy": 743778,
+    "PriceOracleProxy": 755060,
     "Comptroller": 741020,
     "LODE": 705571
   },
@@ -497,6 +497,6 @@
     "lDAI": "0xf310b3ba316527e81A2ce55BBF1f0857744E759B",
     "lplvGLP": "0xb19Dd6599e2D7f10c1168422c2edd30144494563",
     "lLODE": "0xEDa84625ad0Ef7a2f24c54180cd6006D4256aaC5",
-    "address": "0x41324c75CfB0E9fCbda4333B81aCCe518C6740aC"
+    "address": "0xD2b8c6C60d9Fb5889aAE20d26bE0EcE6A68D491d"
   }
 }
