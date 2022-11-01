@@ -3270,8 +3270,10 @@
       ],
       "name": "claimComp",
       "outputs": [],
+      "payable": false,
       "stateMutability": "nonpayable",
-      "type": "function"
+      "type": "function",
+      "signature": "0xe9af0292"
     },
     {
       "inputs": [],
