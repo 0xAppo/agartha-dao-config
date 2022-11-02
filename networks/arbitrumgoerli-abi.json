@@ -14883,7 +14883,7 @@
       "type": "function"
     }
   ],
-  "cCOMP": [
+  "lLODE": [
     {
       "inputs": [
         {
@@ -31949,7 +31949,7 @@
       "type": "event"
     }
   ],
-  "COMP": [
+  "LODE": [
     {
       "inputs": [
         {
@@ -38896,7 +38896,7 @@
       "signature": "constructor"
     }
   ],
-  "cETH": [
+  "lETH": [
     {
       "constant": true,
       "inputs": [],
