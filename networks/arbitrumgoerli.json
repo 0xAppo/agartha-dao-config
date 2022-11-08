@@ -405,7 +405,7 @@
       "address": "0x855FE06053dAAd03288f30ACEdD2DdCd1931782a",
       "initial_exchange_rate_mantissa": "200000000000000000000000000",
       "admin": "0x67E57A0ec37768eaF99a364975ec4E1f98920D01",
-      "underlying": "0x79446f2936d97be973568fe6988C6aBDd7497167",
+      "underlying": "0x21Dbd0C4f580e636aBc68327669A15239C82eee0",
       "contract": "CErc20Delegator"
     }
   },
